@@ -1,0 +1,12 @@
+@import "node_modules/bootstrap/scss/bootstrap";
+.container-fluid {
+    padding: 0;
+    margin: 0;
+}
+
+.carousel {
+    position: relative;
+    width: 70vw;
+    left: 50%;
+    transform: translateX(-50%);
+  }

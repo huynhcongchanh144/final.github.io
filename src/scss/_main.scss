@@ -1,0 +1,63 @@
+@import 'custom.scss';
+@import 'variables.scss';
+
+.header {
+    background-color: $bg-color-main;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    .navbar-nav {
+        flex-direction: row-reverse;
+    }
+
+    .custom-select {
+        border: none;
+    }
+}
+
+.main-menu {
+    background-color: $bg-color-second;
+    display: flex;
+    justify-content: center;
+    .item-menu {
+        padding: 0 15px;
+        font-size: 24px;
+    }
+}
+
+.list-movies {
+    margin-top: 10vh;
+    text-align: center;
+
+    .container-list {
+        margin-top: 5vh;
+        display: flex;
+        align-items: center;
+        .movie {
+            max-width: 300px;
+        }
+    }
+
+    .title {
+        color: #333;
+    }
+    hr{
+        border: medium none;
+        position: relative;
+    }
+    hr::before {
+        background: none repeat scroll 0 0 #ccc;
+        content: " ";
+        height: 2px;
+        left: 25%;
+        position: absolute;
+        top: 0;
+        width: 50%;
+    }
+}
+
+.layer {
+   
+}
